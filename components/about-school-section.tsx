@@ -12,7 +12,7 @@ type Tab = {
   content: string;
 };
 
-const aboutImage = '/images/hero/child-matters.jpg';
+const aboutImage = '/images/hero/child-matters.JPG';
   
 
 const tabs: Tab[] = [

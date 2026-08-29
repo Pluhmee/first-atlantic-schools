@@ -33,9 +33,9 @@ const CONTACT_INFO = {
 };
 
 const contactPageMedia = {
-  heroBackgroundImage: '/images/gallery/gallery-66.jpg',
-  heroCircleImage: '/images/gallery/gallery-128.jpg',
-  campusImage: '/images/gallery/gallery-29.jpg',
+  heroBackgroundImage: '/images/gallery/gallery-66.JPG',
+  heroCircleImage: '/images/gallery/gallery-128.JPG',
+  campusImage: '/images/gallery/gallery-29.JPG',
 };
 
 // =========================

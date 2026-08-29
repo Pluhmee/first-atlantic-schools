@@ -35,8 +35,8 @@ type ValueItem = {
 };
 
 const aboutPageImages = {
-  hero: '/images/hero/child-matters.jpg',
-  story: '/images/hero/hero-bg-1.jpg',
+  hero: '/images/hero/child-matters.JPG',
+  story: '/images/hero/hero-bg-1.JPG',
   proprietor: '',
 };
 
@@ -501,7 +501,7 @@ export default function AboutPage() {
                 ) : (
                     <div className="relative h-[450px] rounded-[1.5rem] overflow-hidden sm:h-[480px]">
                     <Image
-                      src="/images/campus/soyebo.jpg"
+                      src="/images/campus/Soyebo.JPG"
                       alt="School proprietor"
                       fill
                       sizes="(max-width: 640px) 100vw, 420px"

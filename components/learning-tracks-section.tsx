@@ -17,7 +17,7 @@ const tracks: TrackCard[] = [
     description:
       'A warm and playful foundation where little learners begin to grow, discover and interact with confidence.',
     href: '/academics',
-    image: '/images/learning-tracks/playgroup.jpg',
+    image: '/images/learning-tracks/playgroup.JPG',
     accent: 'from-emerald-500 to-green-600',
     icon: Baby,
   },
@@ -26,7 +26,7 @@ const tracks: TrackCard[] = [
     description:
       'A nurturing early-years experience focused on curiosity, routines, language development and joyful learning.',
     href: '/academics',
-    image: '/images/learning-tracks/preschool.jpg',
+    image: '/images/learning-tracks/preschool.JPG',
     accent: 'from-pink-500 to-fuchsia-600',
     icon: BookOpen,
   },
@@ -35,7 +35,7 @@ const tracks: TrackCard[] = [
     description:
       'Strong academic building blocks, creativity and character development designed to help pupils thrive.',
     href: '/academics',
-    image: '/images/learning-tracks/elementary.jpg',
+    image: '/images/learning-tracks/elementary.JPG',
     accent: 'from-yellow-500 to-amber-600',
     icon: School,
   },
@@ -44,7 +44,7 @@ const tracks: TrackCard[] = [
     description:
       'Purpose-driven secondary education that prepares students for leadership, excellence and future opportunities.',
     href: '/academics',
-    image: '/images/learning-tracks/college.jpg',
+    image: '/images/learning-tracks/college.JPG',
     accent: 'from-sky-400 to-cyan-500',
     icon: GraduationCap,
   },

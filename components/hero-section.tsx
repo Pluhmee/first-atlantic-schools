@@ -7,17 +7,17 @@ import { ArrowRight, MapPin, Sparkles } from 'lucide-react';
 import Animated from './Animated';
 
 const heroBackgroundImages = [
-  '/images/hero/hero-bg-1.jpg',
-  '/images/hero/hero-bg-2.jpg',
-  '/images/hero/hero-bg-3.jpg',
+  '/images/hero/hero-bg-1.JPG',
+  '/images/hero/hero-bg-2.JPG',
+  '/images/hero/hero-bg-3.JPG',
 ].filter(Boolean) as string[];
 
 const SLIDE_INTERVAL = 3000;
 
 const heroImages = {
-  main: '/images/hero/hero-pic-1.jpg',
-  sideTop: '/images/hero/hero-pic-2.jpg',
-  sideBottom: '/images/hero/hero-pic-3.jpg',
+  main: '/images/hero/hero-pic-1.JPG',
+  sideTop: '/images/hero/hero-pic-2.JPG',
+  sideBottom: '/images/hero/hero-pic-3.JPG',
 };
 
 const levels = ['Playgroup', 'Nursery', 'Primary', 'College'];

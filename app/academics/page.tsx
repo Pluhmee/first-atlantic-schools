@@ -66,7 +66,7 @@ const learningTracks = [
     ageRange: "1½ – 2½ years",
     description:
       "Our crèche and toddler room is the cradle of the future. Caregivers provide tender, loving care with utmost attention to detail, giving parents peace of mind.",
-    image: "/images/learning-tracks/playgroup.jpg",
+    image: "/images/learning-tracks/playgroup.JPG",
     icon: Baby,
     color: "from-emerald-500 to-green-600",
     points: [
@@ -80,7 +80,7 @@ const learningTracks = [
     ageRange: "2½ – 5 years",
     description:
       "We apply a full Montessori approach to teaching and learning in our preschool section, nurturing curiosity, independence and a love for learning from the earliest years.",
-    image: "/images/learning-tracks/preschool.jpg",
+    image: "/images/learning-tracks/preschool.JPG",
     icon: Sparkles,
     color: "from-pink-500 to-fuchsia-600",
     points: [
@@ -94,7 +94,7 @@ const learningTracks = [
     ageRange: "5 – 10 years",
     description:
       "Our lower and upper primary sections build strong academic foundations using STEAM teaching techniques, critical thinking and activity-based learning strategies.",
-    image: "/images/learning-tracks/elementary.jpg",
+    image: "/images/learning-tracks/elementary.JPG",
     icon: BookOpen,
     color: "from-amber-500 to-orange-600",
     points: [
@@ -108,7 +108,7 @@ const learningTracks = [
     ageRange: "10 – 16 years",
     description:
       "Our secondary school prepares students for leadership and future opportunities through a rigorous blend of Nigerian and international curricula, from JSS through SSS.",
-    image: "/images/learning-tracks/college.jpg",
+    image: "/images/learning-tracks/college.JPG",
     icon: GraduationCap,
     color: "from-sky-500 to-blue-700",
     points: [
@@ -276,22 +276,22 @@ const uniqueQualities = [
 const campusGallery = [
   {
     title: "School Bus",
-    image: "/images/campus/school-bus.jpg",
+    image: "/images/campus/school-bus.JPG",
     icon: Bus,
   },
   {
     title: "Purpose-Built Structure",
-    image: "/images/campus/school-building.jpg",
+    image: "/images/campus/school-building.JPG",
     icon: Building2,
   },
   {
     title: "Multi-Purpose Hall",
-    image: "/images/campus/multi-purpose-hall.jpg",
+    image: "/images/campus/multi-purpose-hall.JPG",
     icon: School2,
   },
   {
     title: "Play Ground",
-    image: "/images/campus/playground.jpg",
+    image: "/images/campus/playground.JPG",
     icon: Trophy,
   },
 ];

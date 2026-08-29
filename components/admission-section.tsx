@@ -5,7 +5,7 @@ import Animated from './Animated';
 
 // Add your admission poster inside /public/images/admission/
 // Then change the filename here if needed.
-const admissionPoster = '/images/admission/admission-poster.jpg';
+const admissionPoster = '/images/admission/admission-poster.JPG';
 
 const admissionItems = ['Playgroup', 'Nursery', 'Primary', 'JSS 1-2'];
 

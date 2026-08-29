@@ -30,7 +30,7 @@ import {
 // =========================
 
 const admissionImages = {
-  poster: "/images/admission/admission-poster.jpg",
+  poster: "/images/admission/admission-poster.JPG",
 };
 
 const availableClasses = [

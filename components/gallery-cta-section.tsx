@@ -10,18 +10,18 @@ type GalleryItem = {
 
 // Add your gallery images here later.
 // Example:
-// { src: '/images/gallery/gallery-1.jpg', alt: 'Pupils in class' }
+// { src: '/images/gallery/gallery-1.JPG', alt: 'Pupils in class' }
 const galleryItems: GalleryItem[] = [
-  { src: '/images/pictures/gallery-1.jpg', alt: 'Gallery image 1' },
-  { src: '/images/pictures/gallery-2.jpg', alt: 'Gallery image 2' },
-  { src: '/images/pictures/gallery-3.jpg', alt: 'Gallery image 3' },
-  { src: '/images/pictures/gallery-4.jpg', alt: 'Gallery image 4' },
-  { src: '/images/pictures/gallery-5.jpg', alt: 'Gallery image 5' },
-  { src: '/images/pictures/gallery-6.jpg', alt: 'Gallery image 6' },
-  { src: '/images/pictures/gallery-7.jpg', alt: 'Gallery image 7' },
-  { src: '/images/pictures/gallery-8.jpg', alt: 'Gallery image 8' },
-  { src: '/images/pictures/gallery-9.jpg', alt: 'Gallery image 9' },
-  { src: '/images/pictures/gallery-10.jpg', alt: 'Gallery image 10' },
+  { src: '/images/pictures/gallery-1.JPG', alt: 'Gallery image 1' },
+  { src: '/images/pictures/gallery-2.JPG', alt: 'Gallery image 2' },
+  { src: '/images/pictures/gallery-3.JPG', alt: 'Gallery image 3' },
+  { src: '/images/pictures/gallery-4.JPG', alt: 'Gallery image 4' },
+  { src: '/images/pictures/gallery-5.JPG', alt: 'Gallery image 5' },
+  { src: '/images/pictures/gallery-6.JPG', alt: 'Gallery image 6' },
+  { src: '/images/pictures/gallery-7.JPG', alt: 'Gallery image 7' },
+  { src: '/images/pictures/gallery-8.JPG', alt: 'Gallery image 8' },
+  { src: '/images/pictures/gallery-9.JPG', alt: 'Gallery image 9' },
+  { src: '/images/pictures/gallery-10.JPG', alt: 'Gallery image 10' },
 ];
 
 export default function GalleryCtaSection() {
