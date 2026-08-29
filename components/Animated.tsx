@@ -12,6 +12,7 @@ type AnimatedProps = HTMLMotionProps<'div'> & {
   children?: React.ReactNode;
   delay?: number;
   preset?: 'fadeUp' | 'none';
+  mode?: 'inView' | 'immediate';
 };
 
 const createFadeUp = (delay = 0): Variants => ({
@@ -34,6 +35,7 @@ export default function Animated({
   children,
   delay = 0,
   preset = 'fadeUp',
+  mode = 'inView',
   className,
   ...props
 }: AnimatedProps) {
@@ -47,8 +49,9 @@ export default function Animated({
   return (
     <motion.div
       initial={variants ? 'hidden' : false}
-      whileInView={variants ? 'visible' : undefined}
-      viewport={{ once: true, amount: 0.12 }}
+      animate={mode === 'immediate' && variants ? 'visible' : undefined}
+      whileInView={mode === 'inView' && variants ? 'visible' : undefined}
+      viewport={mode === 'inView' ? { once: true, amount: 0.12 } : undefined}
       variants={variants}
       className={className}
       {...props}

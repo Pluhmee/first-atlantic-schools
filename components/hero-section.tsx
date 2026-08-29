@@ -75,7 +75,7 @@ export default function HeroSection() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid min-h-[88vh] items-center gap-10 py-12 sm:gap-12 sm:py-16 lg:grid-cols-2 lg:py-24">
           {/* Mobile / tablet visual collage */}
-          <Animated className="relative mx-auto w-full max-w-sm lg:hidden">
+          <Animated mode="immediate" className="relative mx-auto w-full max-w-sm lg:hidden">
             <div className="relative h-[280px] sm:h-[340px]">
               <div className="float-medium absolute left-1/2 top-0 h-[230px] w-[230px] -translate-x-1/2 overflow-hidden rounded-full border-[6px] border-white/15 shadow-2xl sm:h-[220px] sm:w-[220px]">
                 <img
@@ -117,20 +117,23 @@ export default function HeroSection() {
 
           {/* Text content */}
           <div className="max-w-2xl">
-            <Animated className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white/90 backdrop-blur-sm">
+            <Animated
+              mode="immediate"
+              className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white/90 backdrop-blur-sm"
+            >
               <Sparkles className="h-4 w-4 text-yellow-300" />
               <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-yellow-200 sm:text-xs">
                 Where every child matters.
               </p>
             </Animated>
 
-            <Animated delay={0.08}>
+            <Animated mode="immediate" delay={0.08}>
               <h1 className="mt-6 text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl xl:text-7xl">
                 Welcome to <span className="text-yellow-300">First Atlantic Schools</span>
               </h1>
             </Animated>
 
-            <Animated delay={0.16}>
+            <Animated mode="immediate" delay={0.16}>
               <p className="mt-5 max-w-xl text-base leading-8 text-white/88 sm:text-lg">
                 A private co-educational school in Ikorodu focused on raising confident,
                 curious and well-rounded learners through quality teaching, strong values,
@@ -138,7 +141,7 @@ export default function HeroSection() {
               </p>
             </Animated>
 
-            <Animated delay={0.24}>
+            <Animated mode="immediate" delay={0.24}>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/about"
@@ -158,7 +161,7 @@ export default function HeroSection() {
               </div>
             </Animated>
 
-            <Animated delay={0.32}>
+            <Animated mode="immediate" delay={0.32}>
               <div className="mt-8 flex flex-wrap gap-3">
                 {levels.map((level, index) => (
                   <span
@@ -173,7 +176,7 @@ export default function HeroSection() {
               </div>
             </Animated>
 
-            <Animated delay={0.4}>
+            <Animated mode="immediate" delay={0.4}>
               <div className="mt-8 flex items-center gap-2 text-sm text-white/82">
                 <MapPin className="h-4 w-4 text-yellow-300" />
                 Ikorodu, Lagos, Nigeria
@@ -181,7 +184,7 @@ export default function HeroSection() {
             </Animated>
 
             {hasBackgroundSlides && heroBackgroundImages.length > 1 && (
-              <Animated delay={0.48}>
+              <Animated mode="immediate" delay={0.48}>
                 <div className="mt-8 flex items-center gap-2">
                   {heroBackgroundImages.map((_, index) => (
                     <button
@@ -202,7 +205,11 @@ export default function HeroSection() {
           </div>
 
           {/* Desktop visual collage */}
-          <Animated delay={0.14} className="relative mx-auto hidden w-full max-w-[34rem] lg:block">
+          <Animated
+            mode="immediate"
+            delay={0.14}
+            className="relative mx-auto hidden w-full max-w-[34rem] lg:block"
+          >
             <div className="relative h-[540px]">
               <div className="float-medium absolute left-10 top-8 h-[320px] w-[320px] overflow-hidden rounded-full border-[8px] border-white/15 shadow-2xl transition-transform duration-500 hover:-translate-y-2 hover:scale-[1.03]">
                 <img
