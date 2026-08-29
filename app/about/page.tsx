@@ -501,7 +501,7 @@ export default function AboutPage() {
                 ) : (
                     <div className="relative h-[450px] rounded-[1.5rem] overflow-hidden sm:h-[480px]">
                     <Image
-                      src="/images/campus/Soyebo.JPG"
+                      src="/images/campus/soyebo.JPG"
                       alt="School proprietor"
                       fill
                       sizes="(max-width: 640px) 100vw, 420px"
