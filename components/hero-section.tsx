@@ -121,7 +121,6 @@ export default function HeroSection() {
               mode="immediate"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white/90 backdrop-blur-sm"
             >
-              <Sparkles className="h-4 w-4 text-yellow-300" />
               <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-yellow-200 sm:text-xs">
                 Where every child matters.
               </p>

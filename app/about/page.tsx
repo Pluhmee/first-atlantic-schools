@@ -35,7 +35,7 @@ type ValueItem = {
 };
 
 const aboutPageImages = {
-  hero: '/images/hero/child-matters.JPG',
+  hero: '/images/hero/child-matters.',
   story: '/images/hero/hero-bg-1.JPG',
   proprietor: '',
 };
