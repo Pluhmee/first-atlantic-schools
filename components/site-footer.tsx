@@ -106,51 +106,73 @@ export default function SiteFooter() {
                 Follow Us
               </p>
 
-              <div className="mt-4 flex flex-wrap gap-3">
-                <a
-                  href={SCHOOL_CONTACT.socialMedia.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit our Facebook page"
-                  className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white backdrop-blur-sm hover:bg-white/15"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    className="h-5 w-5 fill-current transition-transform duration-300 group-hover:scale-110"
-                  >
-                    <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.19 2.23.19v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12Z" />
-                  </svg>
-                </a>
+             <div className="mt-4 flex flex-wrap gap-3">
+  <a
+    href={SCHOOL_CONTACT.socialMedia.facebook}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit our Facebook page"
+    className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className="h-5 w-5 transition-transform duration-300 group-hover:scale-110"
+    >
+      <path
+        fill="#1877F2"
+        d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.019 4.388 11.009 10.125 11.927v-8.437H7.078v-3.49h3.047V9.413c0-3.03 1.792-4.705 4.533-4.705 1.313 0 2.686.235 2.686.235v2.975H15.83c-1.49 0-1.955.931-1.955 1.887v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.082 24 18.092 24 12.073Z"
+      />
+    </svg>
+  </a>
 
-                <a
-                  href={SCHOOL_CONTACT.socialMedia.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit our X page"
-                  className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white backdrop-blur-sm hover:bg-white/15"
-                >
-                  <span className="text-sm font-bold transition-transform duration-300 group-hover:scale-110">
-                    X
-                  </span>
-                </a>
+  <a
+    href={SCHOOL_CONTACT.socialMedia.twitter}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit our X page"
+    className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className="h-5 w-5 transition-transform duration-300 group-hover:scale-110"
+    >
+      <path
+        fill="#000000"
+        d="M18.244 2H21.5l-7.11 8.128L22.75 22h-6.54l-5.12-6.69L5.24 22H2l7.6-8.69L1.25 2h6.71l4.63 6.11L18.244 2Zm-1.147 18h1.804L6.97 3.895H5.034L17.097 20Z"
+      />
+    </svg>
+  </a>
 
-                <a
-                  href={SCHOOL_CONTACT.socialMedia.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Visit our Instagram page"
-                  className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white backdrop-blur-sm hover:bg-white/15"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    aria-hidden="true"
-                    className="h-5 w-5 fill-current transition-transform duration-300 group-hover:scale-110"
-                  >
-                    <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7Zm10.5 1.65a.85.85 0 1 1 0 1.7.85.85 0 0 1 0-1.7ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Z" />
-                  </svg>
-                </a>
-              </div>
+  <a
+    href={SCHOOL_CONTACT.socialMedia.instagram}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit our Instagram page"
+    className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className="h-5 w-5 transition-transform duration-300 group-hover:scale-110"
+    >
+      <defs>
+        <linearGradient id="instagramGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#F58529" />
+          <stop offset="25%" stopColor="#FEDA77" />
+          <stop offset="50%" stopColor="#DD2A7B" />
+          <stop offset="75%" stopColor="#8134AF" />
+          <stop offset="100%" stopColor="#515BD4" />
+        </linearGradient>
+      </defs>
+      <path
+        fill="url(#instagramGradient)"
+        d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2.2A2.8 2.8 0 0 0 4.2 7v10A2.8 2.8 0 0 0 7 19.8h10a2.8 2.8 0 0 0 2.8-2.8V7A2.8 2.8 0 0 0 17 4.2H7Zm10.5 1.65a.85.85 0 1 1 0 1.7.85.85 0 0 1 0-1.7ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Z"
+      />
+    </svg>
+  </a>
+</div>
             </div>
           </Animated>
 

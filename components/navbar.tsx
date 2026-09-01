@@ -131,17 +131,28 @@ export default function Navbar() {
                     <span className="text-xs font-bold uppercase tracking-wider text-gray-400">School Login</span>
                     <ChevronDown className="h-4 w-4 text-[#0d0066] transition-transform duration-200" />
                   </summary>
-                  <div className="border-t border-gray-100 bg-gray-50/50 py-2">
-                    <a href="https://firstatlanticschools.org" target="_blank" rel="noopener noreferrer" className="block rounded-md px-3 py-2 text-sm text-[#0d0066] hover:bg-white">
-                      Student Portal
-                    </a>
-                    <Link href="/portal/staff" className="block rounded-md px-3 py-2 text-sm text-[#0d0066] hover:bg-white">
-                      Staff Portal
-                    </Link>
-                    <Link href="/portal/parents" className="block rounded-md px-3 py-2 text-sm text-[#0d0066] hover:bg-white">
-                      Parent Portal
-                    </Link>
-                  </div>
+                 <div className="border-t border-gray-100 bg-gray-50/50 py-2">
+                <button
+                  type="button"
+                  className="block w-full rounded-md px-3 py-2 text-left text-sm text-[#0d0066] hover:bg-white"
+                >
+                 Student Portal
+               </button>
+
+                <button
+                  type="button"
+                  className="block w-full rounded-md px-3 py-2 text-left text-sm text-[#0d0066] hover:bg-white"
+                >
+                 Staff Portal
+                </button>
+
+                <button
+                 type="button"
+                  className="block w-full rounded-md px-3 py-2 text-left text-sm text-[#0d0066] hover:bg-white"
+                >
+                  Parent Portal
+                </button>
+              </div>
                 </details>
 
                 <Link href="/gallery" className="block rounded-md py-2 font-semibold text-[#0d0066]">
