@@ -12,6 +12,7 @@ import {
   Phone,
 } from 'lucide-react';
 import Animated from './Animated';
+import { LinkedinLogoIcon } from '@phosphor-icons/react';
 
 const quickLinks = [
   { label: 'Home', href: '/' },
@@ -37,9 +38,9 @@ const SCHOOL_CONTACT = {
   email: 'contact@firstatlanticschools.org',
   whatsappNumber: '2348123834186',
   socialMedia: {
-    facebook: '#',
-    twitter: '#',
-    instagram: '#',
+    facebook: 'https://www.facebook.com/share/19CFqcmfps/',
+    linkedin: 'https://www.linkedin.com/company/firstatlanticschools',
+    instagram: 'https://www.instagram.com/firstatlanticschools?igsi=MThhZmZkOGhjbnpreQ==',
   },
 };
 
@@ -127,24 +128,23 @@ export default function SiteFooter() {
   </a>
 
   <a
-    href={SCHOOL_CONTACT.socialMedia.twitter}
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Visit our X page"
-    className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg"
+  href={SCHOOL_CONTACT.socialMedia.linkedin}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Visit our LinkedIn page"
+  className="group button-lift inline-flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg"
+>
+  <svg
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+    className="h-5 w-5 transition-transform duration-300 group-hover:scale-110"
   >
-    <svg
-      viewBox="0 0 24 24"
-      aria-hidden="true"
-      className="h-5 w-5 transition-transform duration-300 group-hover:scale-110"
-    >
-      <path
-        fill="#000000"
-        d="M18.244 2H21.5l-7.11 8.128L22.75 22h-6.54l-5.12-6.69L5.24 22H2l7.6-8.69L1.25 2h6.71l4.63 6.11L18.244 2Zm-1.147 18h1.804L6.97 3.895H5.034L17.097 20Z"
-      />
-    </svg>
-  </a>
-
+    <path
+      fill="#0A66C2"
+      d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.67H9.33V9h3.42v1.56h.05c.48-.9 1.64-1.86 3.38-1.86 3.61 0 4.28 2.38 4.28 5.48v6.27ZM5.31 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.09 20.45H3.53V9h3.56v11.45Z"
+    />
+  </svg>
+</a>
   <a
     href={SCHOOL_CONTACT.socialMedia.instagram}
     target="_blank"
