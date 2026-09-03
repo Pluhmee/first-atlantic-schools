@@ -1,7 +1,10 @@
 import type { MetadataRoute } from 'next';
 
 function getBaseUrl() {
-  const url = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.firstatlanticschools.org';
+  const url =
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    'https://www.firstatlanticschools.com';
+
   return url.replace(/\/$/, '');
 }
 
