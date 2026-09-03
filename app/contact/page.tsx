@@ -346,8 +346,7 @@ export default function ContactPage() {
                 Let’s hear from you
               </h2>
               <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
-                This new form is wired for Formspree so it can actually receive submissions.
-                Messages submitted here will go to {CONTACT_INFO.email}.
+              {CONTACT_INFO.email}.
               </p>
 
               <form className="mt-8 space-y-5" onSubmit={handleSubmit}>
