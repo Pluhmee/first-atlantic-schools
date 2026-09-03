@@ -521,7 +521,7 @@ export default function AboutPage() {
               <h2 className="animate-fade-up delay-1 mt-5 text-3xl font-extrabold text-[#0d0066] sm:text-4xl lg:text-5xl">
                 Leadership that keeps the vision alive
               </h2>
-
+{/* 
               <p className="animate-fade-up delay-2 mt-5 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
                 The old About page included a school proprietor section, but it felt disconnected.
                 In this redesign, leadership is presented with more clarity and warmth to reinforce
@@ -531,7 +531,7 @@ export default function AboutPage() {
               <p className="animate-fade-up delay-3 mt-4 text-sm leading-7 text-slate-600 sm:text-base sm:leading-8">
                 This area can later include a real message from the proprietor, principal or school
                 leadership team about the school’s mission, care philosophy and commitment to student growth.
-              </p>
+              </p> */}
 
               <div className="animate-fade-up delay-4 mt-8 flex flex-col gap-4 sm:flex-row">
                 <Link
