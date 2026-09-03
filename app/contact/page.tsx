@@ -27,7 +27,7 @@ const CONTACT_INFO = {
   // Example with coordinates: '6.6190, 3.5100'
   mapsQuery: 'First Atlantic School Ikorodu',
   phoneNumbers: ['09038559900', '081238234186', '09137813344', '07012401488'],
-  email: 'contact@firstatlanticschools.org',
+  email: 'contact@firstatlanticschools.com',
   schoolHours: 'Monday – Friday 07:00 – 16:00',
   whatsappNumber: '2348123834186',
 };
